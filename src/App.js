@@ -5,11 +5,13 @@ import About from './components/about';
 import Menu from './components/menu';
 import Projects from './components/projects';
 import Toolbox from './components/stack';
+import { BubblyContainer } from 'react-bubbly-transitions';
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <BubblyContainer />
         <Menu />
         <Routes>
           <Route path="/" element={<Home />} />

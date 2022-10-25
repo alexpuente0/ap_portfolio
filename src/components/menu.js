@@ -1,6 +1,6 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import '../App.css';
+import { BubblyLink } from "react-bubbly-transitions";
 
 const Menu = () => {
   const [navbar, setNavbar] = React.useState("invisible");
@@ -22,24 +22,44 @@ const Menu = () => {
       <nav className={navbar}>
         <ul className="navigator">
           <li>
-            <NavLink onClick={handleHamburgerClick} to="/">
+            <BubblyLink
+              colorStart="#16203b"
+              colorEnd="#0d1117"
+              onClick={handleHamburgerClick}
+              to="/"
+            >
               Home
-            </NavLink>
+            </BubblyLink>
           </li>
           <li>
-            <NavLink onClick={handleHamburgerClick} to="/about">
+            <BubblyLink
+              colorStart="#16203b"
+              colorEnd="#0d1117"
+              onClick={handleHamburgerClick}
+              to="/about"
+            >
               About
-            </NavLink>
+            </BubblyLink>
           </li>
           <li>
-            <NavLink onClick={handleHamburgerClick} to="/stack">
+            <BubblyLink
+              colorStart="#16203b"
+              colorEnd="#0d1117"
+              onClick={handleHamburgerClick}
+              to="/stack"
+            >
               Toolbox
-            </NavLink>
+            </BubblyLink>
           </li>
           <li>
-            <NavLink onClick={handleHamburgerClick} to="/projects">
+            <BubblyLink
+              colorStart="#16203b"
+              colorEnd="#0d1117"
+              onClick={handleHamburgerClick}
+              to="/projects"
+            >
               Projects
-            </NavLink>
+            </BubblyLink>
           </li>
         </ul>
       </nav>
