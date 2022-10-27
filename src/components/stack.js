@@ -16,7 +16,7 @@ const toolbox = () => {
 
 
   return (
-    <div className="techstack">
+    <div className="pagecontainer">
       <h1>Toolbox</h1>
       <p>
         I'm a full stack web developer with a passion for learning new technologies

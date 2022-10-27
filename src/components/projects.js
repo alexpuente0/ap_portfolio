@@ -5,7 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 const Projects = () => {
 
   return (
-    <div>
+    <div className="pagecontainer">
       <h1>Projects</h1>
       <p>
         Here you can find some of my projects. I'm always looking for new
@@ -15,7 +15,8 @@ const Projects = () => {
 <div
   style={{
     paddingBottom: '30px',
-    position: 'relative'
+    position: 'relative',
+    width: '95%'
   }}
 >
   <Carousel

@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div>
+    <div className="pagecontainer">
       <h1>Home</h1>
       <p>
         Welocme to My portfolio! I'm Alex, a full stack web developer from
