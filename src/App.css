@@ -15,6 +15,11 @@ body {
 margin-left: 100px;
 }
 
+.home-image {
+  width: 80vw;
+  height: auto;
+}
+
 .spinner {
   text-align: center;
   margin: 15px;
