@@ -71,7 +71,7 @@ const Projects = () => {
   >
           {projectDetails.map((project) => (
             <div key={project.id} className="card">
-              <img src={project.image} alt={project.name} />
+              <img src={project.image} alt={project.name} className="cardimg" />
 
               <h2>{project.title}</h2>
               <p>{project.description}</p>

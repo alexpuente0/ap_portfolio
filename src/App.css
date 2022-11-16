@@ -32,6 +32,12 @@ margin-left: 100px;
   width: 100%;
 }
 
+.cardimg {
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.534);
+  height: 55vh;
+}
+
 button {
   background: transparent;
   border: 0;
