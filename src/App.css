@@ -16,8 +16,10 @@ margin-left: 100px;
 }
 
 .home-image {
-  width: 80vw;
-  height: auto;
+  width: auto;
+  height: 590px;
+  margin: 0 auto;
+  display: block;
 }
 
 .spinner {
@@ -167,4 +169,58 @@ button {
   letter-spacing: 2px;
   line-height: 1;
   transition: 0.4s;
+}
+
+.contact-bar{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #16203b;
+  border-radius: 10px;
+  padding: 15px 0 8px 0;
+  width: 90%;
+}
+
+.techgrid{
+margin-top: 50px;
+}
+
+.tsicon{
+  width: 40px;
+  height: 40px;
+}
+
+.container-ts{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  align-items: center;
+  width: 100%;
+}
+
+.techstack-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.profilepic-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.profilepic{
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  border: 4px solid #052835;
+}
+
+.page-content{
+  width: 90%;
 }

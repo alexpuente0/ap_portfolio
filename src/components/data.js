@@ -119,14 +119,14 @@ const projectDetails = [
     image: "https://live.staticflickr.com/65535/52489033286_7babcd321a_o.png",
     link: "https://github.com/alexpuente0/budget-wizard",
   },
-  {
-    id: 16,
-    title: "Rent-A-Green",
-    description:
-      "This application allow users to book an appointment to test an electric car. The homepage is a showcase of the available vehicles. You can add new cars, view the details of each one, and book an appointment for renting a car, among other features. This App is made with React with a propietary RoR API.",
-    image: "https://i.imgur.com/0Z0Z7Zu.png",
-    link: "https://github.com/alexpuente0/final-capstone-frontend",
-  },
+  // {
+  //   id: 16,
+  //   title: "Rent-A-Green",
+  //   description:
+  //     "This application allow users to book an appointment to test an electric car. The homepage is a showcase of the available vehicles. You can add new cars, view the details of each one, and book an appointment for renting a car, among other features. This App is made with React with a propietary RoR API.",
+  //   image: "https://i.imgur.com/0Z0Z7Zu.png",
+  //   link: "https://github.com/alexpuente0/final-capstone-frontend",
+  // },
 ];
 
 export default projectDetails;
