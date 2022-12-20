@@ -20,7 +20,7 @@ const projectDetails = [
     title: "Recipes App",
     description:
       "An object-based personal Recipe app where each user can log in and enter their recipes while using an ingredients inventory and a shopping list for the missing ones. Made with Ruby on Rails",
-    image: "https://live.staticflickr.com/65535/52489214564_d791bc86fe_o.png",
+    image: "https://live.staticflickr.com/65535/52489214564_380527ba10_o.png",
     link: "https://github.com/alexpuente0/recipes_rails",
   },
   {
