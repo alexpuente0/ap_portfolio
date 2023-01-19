@@ -14,7 +14,7 @@ const About = () => {
           In my previous work experiences, I have worked with teams of graphic
           designers and web developers, which has given me a solid set of tools
           to wireframe, design, and develop great projects. I've also developed
-          strong leadership skillsI and, as a lifelong learner, im always
+          strong leadership skills and, as a lifelong learner, im always
           looking for new opportunities to learn and grow.
         </p>
         <p>
@@ -25,9 +25,9 @@ const About = () => {
         </p>
         <p>
           {" "}
-          I'm a problem solver, and i love a challenge and a good cup of coffee.
-          I'm currently looking for new remote work opportunities, and i hope
-          its you who gives me a new challenge to solve.
+          I'm a problem solver, and I love a challenge and a good cup of coffee.
+          I'm currently looking for new remote work opportunities, and I hope
+          you have a new challenge for me to solve.
         </p>
         <div className="profilepic-container">
           <img
