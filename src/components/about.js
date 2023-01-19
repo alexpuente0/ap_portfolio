@@ -14,7 +14,7 @@ const About = () => {
           In my previous work experiences, I have worked with teams of graphic
           designers and web developers, which has given me a solid set of tools
           to wireframe, design, and develop great projects. I've also developed
-          strong leadership skills and, as a lifelong learner, im always
+          strong leadership skills and, as a lifelong learner, I'm always
           looking for new opportunities to learn and grow.
         </p>
         <p>
