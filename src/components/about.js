@@ -5,29 +5,35 @@ const About = () => {
       <div className="page-content">
         <p>
           {" "}
-          Hello! My name is Alex, and I am a full stack web developer with a
-          background in human resources and psychology. I am passionate about
-          creating beautiful and functional web applications.
+          Hello! I'm Alex, a versatile full-stack web developer with a
+          background in both HR and psychology. This unique combination has
+          given me a fresh perspective on web development and how to approach
+          projects from both a technical and a human perspective.
         </p>
         <p>
           {" "}
-          In my previous work experiences, I have worked with teams of graphic
-          designers and web developers, which has given me a solid set of tools
-          to wireframe, design, and develop great projects. I've also developed
-          strong leadership skills and, as a lifelong learner, I'm always
-          looking for new opportunities to learn and grow.
+          My passion for web development stems from my love of creating websites
+          that are not only visually appealing, but also user-friendly and easy
+          to navigate. I have collaborated with teams of graphic designers and
+          other web developers in the past and have honed my skills in
+          wireframing, design, and development. I am a strong leader who can
+          effectively guide and motivate teams to achieve project goals.
         </p>
         <p>
           {" "}
-          I am from Monterrey, Mexico. I enjoy music, travel, tech, and
-          videogames. I also enjoy cooking and ocasionally homebrewing some
-          beer.
+          In my free time, I love to travel and explore new cultures. I'm
+          originally from Monterrey, Mexico and when I'm not coding, I enjoy
+          listening to music, playing video games, cooking, and brewing beer.
+          I'm always looking to learn new things and stay up-to-date with the
+          latest tech trends.
         </p>
         <p>
           {" "}
-          I'm a problem solver, and I love a challenge and a good cup of coffee.
-          I'm currently looking for new remote work opportunities, and I hope
-          you have a new challenge for me to solve.
+          I'm an analytical problem-solver who thrives in challenging
+          environments. Currently, I'm interested in remote work opportunities
+          and I'm confident that my skills and experience would be a great fit
+          for your team. I'm excited about the opportunity to bring my passion
+          for web development and my unique perspective to your projects.
         </p>
         <div className="profilepic-container">
           <img
