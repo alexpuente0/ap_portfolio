@@ -13,7 +13,7 @@ const projectDetails = [
     description:
       "An object-based personal finance Mobile App where each user can log in and register their expenses in different categories or groups.",
     image: "https://live.staticflickr.com/65535/52489033286_7babcd321a_o.png",
-    link: "https://github.com/alexpuente0/budget-wizard",
+    link: "https://github.com/alexpuente0/budget_wizard",
   },
   {
     id: 3,
