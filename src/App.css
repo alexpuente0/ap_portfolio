@@ -61,16 +61,6 @@ button {
   transition: 0.4s;
 }
 
-@media (width < 500px) {
-  .sidebar {
-    translate: -100% 0;
-  }
-
-  .open .sidebar {
-    translate: 0 0;
-  }
-}
-
 .sidebar-header {
   display: grid;
   place-items: center;
@@ -78,27 +68,14 @@ button {
   background: rgba(0, 0, 0, 0.1);
 }
 
-.logo {
+ .logo {
   z-index: 2;
-  top: 18px;
-  left: 52px;
+  top: 20px;
+  left: 18px;
   width: 38px;
   scale: 0.8;
   transition: 0.4s;
-}
-
-@media (width <= 500px) {
-  .open > .logo {
-    translate: 28px;
-  }
-}
-
-@media (width >= 500px) {
-  .logo {
-    left: 15px;
-    width: 42px;
-  }
-}
+} 
 
 .burger {
   z-index: 2;
@@ -108,17 +85,12 @@ button {
   place-items: center;
   width: 72px;
   height: 72px;
-  background: url(../src/assets/icon-burger.png) no-repeat center;
+  background: url(../src/assets/image.png) no-repeat center;
+  background-size: 30px 30px;
 }
 
 .open .burger {
   background: url(../src/assets/icon-close.png) no-repeat center;
-}
-
-@media (width >= 500px) {
-  .burger {
-    display: none;
-  }
 }
 
 .sidebar > nav {
@@ -138,13 +110,6 @@ button {
   width: 100%;
   height: 60px;
   padding: 0;
-}
-
-@media (width >= 500px) {
-  .sidebar > nav > button:hover > span {
-    opacity: 1;
-    visibility: visible;
-  }
 }
 
 .sidebar > nav > button > img {
@@ -223,4 +188,135 @@ margin-top: 50px;
 
 .page-content{
   width: 90%;
+}
+
+@media (width <= 500px) {
+  .open > .logo {
+    translate: 28px;
+  }
+}
+
+@media (width <= 500px) {
+  .logo {
+    display: none;
+  }
+  
+  .home-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .pagecontainer {
+    margin: 75px 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+  }
+
+  .contact-bar {
+    width: 100%;
+    padding: 15px 0 10px 0;
+  }
+}
+
+@media (width >= 500px) {
+  .sidebar > nav > button:hover > span {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media (width >= 500px) {
+  .burger {
+    display: none;
+  }
+}
+
+@media (width < 500px) {
+  .card{
+    width: 100%;
+    padding: 0 0 15px 0;
+  }
+
+  .spinner {
+    display: flex;
+    margin: 25px;
+    width: 95%;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .pagecontainer > .spinner, h1, p {
+    margin: 12px 0 10px 0;
+  }
+
+  .cardimg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (width < 500px) {
+  .sidebar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    width: 100%;
+    height: 72px;
+  }
+
+  .sidebar > nav {
+    display: flex;
+    width: 80%;
+    padding: 15px 15px 0 0;
+
+  }
+
+  .sidebar-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 72px;
+    background: #162030;
+  }
+
+  .sidebar > nav > button > span {
+    opacity: 1;
+    visibility: visible;
+    position: initial;
+    translate: 0 0;
+    background: none;
+    padding: 0;
+    padding-bottom: 10px;  
+  }
+
+  .burger {
+    pointer-events: none;
+  }
+}
+
+@media (width < 500px) {
+  .container-ts {
+    display: flex;
+    flex-direction: column
+  }
+
+  .txtimg {
+    display: flex;
+    align-items: center;  
+    gap: 25px;
+}
+
+  .techgrid {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
 }
