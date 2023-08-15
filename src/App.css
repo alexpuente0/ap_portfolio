@@ -302,3 +302,21 @@ margin-top: 50px;
     pointer-events: none;
   }
 }
+
+@media (width < 500px) {
+  .container-ts {
+    display: flex;
+    flex-direction: column
+  }
+
+  .txtimg {
+    display: flex;
+    align-items: center;  
+    gap: 25px;
+}
+
+  .techgrid {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+}
