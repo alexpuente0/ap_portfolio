@@ -1,15 +1,15 @@
-import "./App.css";
+import './App.css';
 import {
   BrowserRouter as Router,
   Route,
   Routes,
-} from "react-router-dom";
-import Home from "./components/home";
-import About from "./components/about";
-import Menu from "./components/menu";
-import Projects from "./components/projects";
-import Toolbox from "./components/stack";
-import { BubblyContainer } from "react-bubbly-transitions";
+} from 'react-router-dom';
+import { BubblyContainer } from 'react-bubbly-transitions';
+import Home from './components/home';
+import About from './components/about';
+import Menu from './components/menu';
+import Projects from './components/projects';
+import Toolbox from './components/stack';
 
 function App() {
   return (

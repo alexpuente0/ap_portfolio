@@ -1,23 +1,25 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable global-require */
 const toolbox = () => {
-  const bootstrap = require("../assets/ts/bootstrap.png");
-  const css = require("../assets/ts/css.png");
-  const docker = require("../assets/ts/docker.png");
-  const git = require("../assets/ts/git.png");
-  const github = require("../assets/ts/github.png");
-  const heroku = require("../assets/ts/heroku.png");
-  const html = require("../assets/ts/html.png");
-  const javascript = require("../assets/ts/javascript.png");
-  const jest = require("../assets/ts/jest.png");
-  const mysql = require("../assets/ts/mysql.png");
-  const netlify = require("../assets/ts/netlify.png");
-  const postgres = require("../assets/ts/postgres.png");
-  const rails = require("../assets/ts/rails.png");
-  const react = require("../assets/ts/react.png");
-  const redux = require("../assets/ts/redux.png");
-  const rspec = require("../assets/ts/rspec.png");
-  const ruby = require("../assets/ts/ruby.png");
-  const sass = require("../assets/ts/sass.png");
-  const tailwind = require("../assets/ts/tailwind.png");
+  const bootstrap = require('../assets/ts/bootstrap.png');
+  const css = require('../assets/ts/css.png');
+  const docker = require('../assets/ts/docker.png');
+  const git = require('../assets/ts/git.png');
+  const github = require('../assets/ts/github.png');
+  const heroku = require('../assets/ts/heroku.png');
+  const html = require('../assets/ts/html.png');
+  const javascript = require('../assets/ts/javascript.png');
+  const jest = require('../assets/ts/jest.png');
+  const mysql = require('../assets/ts/mysql.png');
+  const netlify = require('../assets/ts/netlify.png');
+  const postgres = require('../assets/ts/postgres.png');
+  const rails = require('../assets/ts/rails.png');
+  const react = require('../assets/ts/react.png');
+  const redux = require('../assets/ts/redux.png');
+  const rspec = require('../assets/ts/rspec.png');
+  const ruby = require('../assets/ts/ruby.png');
+  const sass = require('../assets/ts/sass.png');
+  const tailwind = require('../assets/ts/tailwind.png');
 
   return (
     <div className="pagecontainer">
@@ -55,30 +57,30 @@ const toolbox = () => {
             </div>
           </div>
           <div className="container-ts">
-          <h3>Frameworks & Libraries</h3>
-          <div className="txtimg">
-            <div className="techstack-item">
-              <img src={react} alt="react" className="tsicon" />
-              <p>React</p>
-            </div>
-            <div className="techstack-item">
-              <img src={redux} alt="redux" className="tsicon" />
-              <p>Redux</p>
-            </div>
-            <div className="techstack-item">
-              <img src={rails} alt="rails" className="tsicon" />
-              <p>Rails</p>
-            </div>
-            <div className="techstack-item">
-              <img src={bootstrap} alt="bootstrap" className="tsicon" />
-              <p>Bootstrap</p>
-            </div>
-            <div className="techstack-item">
-              <img src={tailwind} alt="tailwind" className="tsicon" />
-              <p>Tailwind</p>
+            <h3>Frameworks & Libraries</h3>
+            <div className="txtimg">
+              <div className="techstack-item">
+                <img src={react} alt="react" className="tsicon" />
+                <p>React</p>
+              </div>
+              <div className="techstack-item">
+                <img src={redux} alt="redux" className="tsicon" />
+                <p>Redux</p>
+              </div>
+              <div className="techstack-item">
+                <img src={rails} alt="rails" className="tsicon" />
+                <p>Rails</p>
+              </div>
+              <div className="techstack-item">
+                <img src={bootstrap} alt="bootstrap" className="tsicon" />
+                <p>Bootstrap</p>
+              </div>
+              <div className="techstack-item">
+                <img src={tailwind} alt="tailwind" className="tsicon" />
+                <p>Tailwind</p>
+              </div>
             </div>
           </div>
-        </div>
           <div className="container-ts">
             <h3> Databases</h3>
             <div className="txtimg">
