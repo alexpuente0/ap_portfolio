@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600;800&display=swap");
 
-*{
+* {
   box-sizing: border-box;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   color: #fff;
 }
 
@@ -12,7 +12,7 @@ body {
 }
 
 .pagecontainer {
-margin-left: 100px;
+  margin-left: 100px;
 }
 
 .home-image {
@@ -57,7 +57,7 @@ button {
   left: 0;
   width: 72px;
   height: 100%;
-  background: #162030;  
+  background: #162030;
   transition: 0.4s;
 }
 
@@ -68,14 +68,14 @@ button {
   background: rgba(0, 0, 0, 0.1);
 }
 
- .logo {
+.logo {
   z-index: 2;
   top: 20px;
   left: 18px;
   width: 38px;
   scale: 0.8;
   transition: 0.4s;
-} 
+}
 
 .burger {
   z-index: 2;
@@ -136,7 +136,7 @@ button {
   transition: 0.4s;
 }
 
-.contact-bar{
+.contact-bar {
   display: flex;
   list-style: none;
   justify-content: space-evenly;
@@ -147,24 +147,30 @@ button {
   width: 90%;
 }
 
-.techgrid{
-margin-top: 50px;
+.techgrid {
+  margin-top: 50px;
 }
 
-.tsicon{
+.tsicon {
   width: 40px;
   height: 40px;
 }
 
-.container-ts{
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 10px;
+.container-ts {
   align-items: center;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.techstack-item{
+.txtimg {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.techstack-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -172,21 +178,21 @@ margin-top: 50px;
   width: 100%;
 }
 
-.profilepic-container{
+.profilepic-container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
 }
 
-.profilepic{
+.profilepic {
   width: 200px;
   height: auto;
   border-radius: 50%;
   border: 4px solid #052835;
 }
 
-.page-content{
+.page-content {
   width: 90%;
 }
 
@@ -200,7 +206,7 @@ margin-top: 50px;
   .logo {
     display: none;
   }
-  
+
   .home-image {
     width: 100%;
     height: auto;
@@ -213,10 +219,10 @@ margin-top: 50px;
     align-items: center;
   }
 
-  .page-content{
+  .page-content {
     display: flex;
     flex-direction: column;
-    align-items: center;  
+    align-items: center;
   }
 
   .contact-bar {
@@ -239,7 +245,7 @@ margin-top: 50px;
 }
 
 @media (width < 500px) {
-  .card{
+  .card {
     width: 100%;
     padding: 0 0 15px 0;
   }
@@ -252,7 +258,9 @@ margin-top: 50px;
     justify-content: center;
   }
 
-  .pagecontainer > .spinner, h1, p {
+  .pagecontainer > .spinner,
+  h1,
+  p {
     margin: 12px 0 10px 0;
   }
 
@@ -266,7 +274,7 @@ margin-top: 50px;
   .sidebar {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;  
+    justify-content: space-between;
     width: 100%;
     height: 72px;
   }
@@ -275,7 +283,6 @@ margin-top: 50px;
     display: flex;
     width: 80%;
     padding: 15px 15px 0 0;
-
   }
 
   .sidebar-menu {
@@ -295,7 +302,7 @@ margin-top: 50px;
     translate: 0 0;
     background: none;
     padding: 0;
-    padding-bottom: 10px;  
+    padding-bottom: 10px;
   }
 
   .burger {
@@ -306,14 +313,14 @@ margin-top: 50px;
 @media (width < 500px) {
   .container-ts {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
   }
 
   .txtimg {
     display: flex;
-    align-items: center;  
+    align-items: center;
     gap: 25px;
-}
+  }
 
   .techgrid {
     margin-top: 20px;
