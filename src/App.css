@@ -204,7 +204,7 @@ button {
 
 @media (width <= 500px) {
   .logo {
-    display: none;
+    display: block;
   }
 
   .home-image {
