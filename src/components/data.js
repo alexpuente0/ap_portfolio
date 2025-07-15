@@ -4,6 +4,14 @@
 
 const projectDetails = [
   {
+    id: 19,
+    title: "Choice Roulette",
+    description:
+      "A fun little app that allows you to add options and then randomly select one of them. Made with React.",
+    image: require("../assets/projects/pj19 - choice.png"),
+    link: "https://github.com/alexpuente0/choice_roulette",
+  },
+  {
     id: 18,
     title: "Raul Sergio - Master Hair Stylist",
     description:
@@ -135,14 +143,14 @@ const projectDetails = [
     image: require("../assets/projects/pj3 - ulov.png"),
     link: "https://github.com/alexpuente0/Capstone_festival",
   },
-  {
-    id: 2,
-    title: "My First Portfolio",
-    description:
-      "This is a generic portfolio website. It was built as an assignment using basic HTML, CSS and Javascript. Was based off a generic Figma template. It was a great learning experience, as it helped me translate from UI/UX design to a functional website.",
-    image: require("../assets/projects/pj2 - port.png"),
-    link: "https://github.com/alexpuente0/My-Portfolio",
-  },
+  // {
+  //   id: 2,
+  //   title: "My First Portfolio",
+  //   description:
+  //     "This is a generic portfolio website. It was built as an assignment using basic HTML, CSS and Javascript. Was based off a generic Figma template. It was a great learning experience, as it helped me translate from UI/UX design to a functional website.",
+  //   image: require("../assets/projects/pj2 - port.png"),
+  //   link: "https://github.com/alexpuente0/My-Portfolio",
+  // },
   {
     id: 1,
     title: "Bombay Bicicle Club - Challenge Page",
