@@ -1,0 +1,160 @@
+.page {
+  position: relative;
+  padding: clamp(2rem, 6vw, 4rem) 0 clamp(3rem, 6vw, 5rem);
+  overflow: hidden;
+}
+
+.container {
+  width: var(--container);
+  margin-inline: auto;
+  display: grid;
+  gap: clamp(1.5rem, 4vw, 3rem);
+  position: relative;
+  z-index: 1;
+}
+
+.head {
+  display: grid;
+  gap: 1rem;
+  max-width: 56ch;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-variation-settings: "SOFT" 70, "opsz" 144;
+  font-size: var(--fs-h2);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.title em {
+  font-style: italic;
+  color: var(--terracotta);
+}
+
+.subtitle {
+  color: var(--text-dim);
+  max-width: 52ch;
+  font-size: var(--fs-body);
+  line-height: 1.6;
+}
+
+.carouselWrap {
+  position: relative;
+  display: grid;
+  gap: 2rem;
+  border-top: 1px solid var(--rule);
+  padding-top: 1.5rem;
+}
+
+.carouselContainer {
+  padding-bottom: 0.5rem;
+}
+
+.carouselItem {
+  display: flex;
+}
+
+.carouselSlider {
+  align-items: stretch;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 0 0.5rem 0;
+  order: -1;
+}
+
+.arrowBtn {
+  font-family: var(--font-mono);
+  font-size: var(--fs-mono);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text);
+  padding: 0.6rem 0;
+  transition: color 220ms var(--ease-out-quart);
+}
+
+.arrowBtn:first-child {
+  justify-self: start;
+}
+
+.arrowBtn:last-of-type {
+  justify-self: end;
+}
+
+.arrowBtn:hover {
+  color: var(--terracotta);
+}
+
+/* Dots — square ticks, right-aligned under slide */
+.dotList {
+  position: static !important;
+  display: flex !important;
+  justify-content: center;
+  gap: 0.35rem;
+  padding: 0.75rem 0 0;
+}
+
+.dotList :global(li) {
+  display: inline-block;
+}
+
+.dotList :global(button) {
+  width: 18px;
+  height: 2px;
+  padding: 0;
+  border: 0;
+  background: var(--rule-strong);
+  border-radius: 0;
+  transition: background 220ms var(--ease-out-quart), width 220ms var(--ease-out-quart);
+  cursor: pointer;
+}
+
+.dotList :global(.react-multi-carousel-dot--active button) {
+  background: var(--terracotta);
+  width: 32px;
+}
+
+/* Hide default arrows just in case */
+:global(.react-multiple-carousel__arrow) {
+  display: none !important;
+}
+
+@media (max-width: 767px) {                                                                    
+        .card > .left,                                                                               
+        .card > .right,                                                                              
+        .card .footer,                                                                               
+        .card .heading {                                                                             
+          display: contents;                                                                         
+        }                                                                                            
+                                                                                                     
+        .card .title {                                                                               
+          order: 1;                                                                                  
+        }                                                                                            
+                                                                                                     
+        .card .imageLink {                                                                           
+          order: 2;                                                                                  
+        }                                                                                            
+                                                                                                     
+        .card .description {                                                                         
+          order: 3;                                                                                  
+        }                                                                                            
+                                                                                                     
+        .card .cta {                                                                                 
+          order: 4;                                                                                  
+          justify-self: start;                                                                       
+        }                                                                                            
+                                                                                                     
+        .card .numWrap {                                                                             
+          order: 5;                                                                                  
+        }                                                                                            
+                                                                                                     
+        .card .meta {                                                                                
+          order: 6;                                                                                  
+        }                                                                                            
+      }                  

@@ -1,0 +1,137 @@
+.page {
+  position: relative;
+  padding: clamp(2rem, 6vw, 4rem) 0 clamp(3rem, 6vw, 5rem);
+  overflow: hidden;
+}
+
+.container {
+  width: var(--container-narrow);
+  margin-inline: auto;
+  display: grid;
+  gap: clamp(1.5rem, 4vw, 2.5rem);
+  position: relative;
+  z-index: 1;
+}
+
+.heading {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-variation-settings: "SOFT" 100, "opsz" 144;
+  font-size: var(--fs-h1);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--text);
+  margin-top: 0.5rem;
+}
+
+.heading em {
+  font-style: italic;
+  color: var(--terracotta);
+}
+
+.subline {
+  font-family: var(--font-mono);
+  font-size: var(--fs-mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.arrow {
+  color: var(--terracotta);
+}
+
+.mailto {
+  color: var(--text);
+  border-bottom: 1px solid var(--terracotta);
+  padding-bottom: 1px;
+  transition: color 220ms var(--ease-out-quart);
+}
+
+.mailto:hover {
+  color: var(--terracotta);
+}
+
+.form {
+  display: grid;
+  gap: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+}
+
+.field {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.label {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.input,
+.textarea {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--rule-strong);
+  padding: 0.65rem 0;
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  color: var(--text);
+  transition: border-color 260ms var(--ease-out-quart);
+  outline: none;
+  resize: vertical;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: var(--text-dim);
+  opacity: 0.55;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: var(--terracotta);
+}
+
+.textarea {
+  min-height: 140px;
+  line-height: 1.55;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.statusRegion {
+  min-height: 0;
+}
+
+.alert {
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--terracotta);
+  background: var(--surface);
+  font-size: var(--fs-body);
+  line-height: 1.5;
+  animation: reveal-fade 300ms var(--ease-out-quart);
+}
+
+.alert strong {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  color: var(--terracotta);
+}
+
+.alertError {
+  border-left-color: var(--cobalt);
+}
+
+.alertError strong {
+  color: var(--cobalt);
+}

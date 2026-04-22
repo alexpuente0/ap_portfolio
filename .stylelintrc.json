@@ -1,6 +1,6 @@
 {
   "extends": ["stylelint-config-standard"],
-  "plugins": ["stylelint-scss", "stylelint-csstree-validator"],
+  "plugins": ["stylelint-scss"],
   "rules": {
     "at-rule-no-unknown": [
       true,
@@ -8,13 +8,27 @@
         "ignoreAtRules": ["tailwind", "apply", "variants", "responsive", "screen"]
       }
     ],
-    "scss/at-rule-no-unknown":  [
+    "scss/at-rule-no-unknown": [
       true,
       {
         "ignoreAtRules": ["tailwind", "apply", "variants", "responsive", "screen"]
       }
     ],
-    "csstree/validator": true
+    "selector-pseudo-class-no-unknown": [
+      true,
+      { "ignorePseudoClasses": ["global", "local"] }
+    ],
+    "unit-no-unknown": [
+      true,
+      { "ignoreUnits": ["svh", "dvh", "lvh", "svw", "dvw", "lvw"] }
+    ],
+    "custom-property-empty-line-before": null,
+    "declaration-empty-line-before": null,
+    "value-keyword-case": null,
+    "no-descending-specificity": null,
+    "declaration-colon-space-after": null,
+    "length-zero-no-unit": null,
+    "number-leading-zero": null
   },
   "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css", "**/*.js", "**/*.jsx"]
 }

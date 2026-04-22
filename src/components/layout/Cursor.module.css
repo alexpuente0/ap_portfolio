@@ -1,0 +1,33 @@
+.ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  border: 1.5px solid var(--terracotta);
+  border-radius: 999px;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+  transition:
+    width 280ms var(--ease-out-expo),
+    height 280ms var(--ease-out-expo),
+    background 200ms var(--ease-out-quart);
+}
+
+.ring[data-hover="true"] {
+  width: 44px;
+  height: 44px;
+  background: color-mix(in oklab, var(--terracotta) 35%, transparent);
+}
+
+.hideNative,
+.hideNative * {
+  cursor: none !important;
+}
+
+@media (hover: none), (prefers-reduced-motion: reduce) {
+  .ring {
+    display: none;
+  }
+}

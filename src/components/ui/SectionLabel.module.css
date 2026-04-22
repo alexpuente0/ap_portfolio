@@ -1,0 +1,32 @@
+.label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6em;
+  font-family: var(--font-mono);
+  font-size: var(--fs-mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.marker {
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  background: var(--terracotta);
+  transform: rotate(45deg);
+  animation: marker-blink 2.4s ease-in-out infinite;
+}
+
+.index {
+  color: var(--terracotta);
+  font-weight: 500;
+}
+
+.slash {
+  opacity: 0.4;
+}
+
+.title {
+  color: var(--text);
+}

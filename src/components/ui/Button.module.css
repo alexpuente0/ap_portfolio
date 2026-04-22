@@ -1,0 +1,83 @@
+.btn {
+  --btn-bg: var(--terracotta);
+  --btn-fg: var(--cream);
+  --btn-border: var(--terracotta);
+
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7em;
+  padding: 0.85em 1.5em;
+  font-family: var(--font-mono);
+  font-size: var(--fs-mono);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  border: 1px solid var(--btn-border);
+  border-radius: 999px;
+  cursor: pointer;
+  transition:
+    background 220ms var(--ease-out-quart),
+    color 220ms var(--ease-out-quart),
+    border-color 220ms var(--ease-out-quart),
+    transform 220ms var(--ease-out-quart);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  --btn-bg: var(--terracotta-deep);
+  --btn-border: var(--terracotta-deep);
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.trailing {
+  display: inline-block;
+  transition: transform 220ms var(--ease-out-quart);
+}
+
+.btn:hover .trailing {
+  transform: translateX(4px);
+}
+
+.primary {
+  /* defaults above */
+}
+
+.ghost {
+  --btn-bg: transparent;
+  --btn-fg: var(--text);
+  --btn-border: var(--rule-strong);
+}
+
+.ghost:hover {
+  --btn-bg: transparent;
+  --btn-fg: var(--terracotta);
+  --btn-border: var(--terracotta);
+}
+
+.underline {
+  --btn-bg: transparent;
+  --btn-fg: var(--text);
+  --btn-border: transparent;
+  padding: 0.35em 0;
+  border-radius: 0;
+  border-bottom: 1px solid var(--text);
+}
+
+.underline:hover {
+  --btn-bg: transparent;
+  --btn-fg: var(--terracotta);
+  border-bottom-color: var(--terracotta);
+  transform: none;
+}

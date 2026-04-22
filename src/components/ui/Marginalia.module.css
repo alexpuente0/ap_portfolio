@@ -1,0 +1,31 @@
+.note {
+  display: none;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  color: var(--text-dim);
+  line-height: 1.5;
+}
+
+.slash {
+  color: var(--terracotta);
+  margin-right: 0.15rem;
+}
+
+@media (min-width: 1024px) {
+  .note {
+    display: block;
+  }
+
+  .right {
+    text-align: left;
+    padding-left: 1.25rem;
+    border-left: 1px solid var(--rule);
+  }
+
+  .left {
+    text-align: right;
+    padding-right: 1.25rem;
+    border-right: 1px solid var(--rule);
+  }
+}
