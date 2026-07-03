@@ -38,7 +38,7 @@ const stack = [
   {
     heading: 'Databases',
     items: [
-      { name: 'PostgreSQL', icon: icon('postgresql.png') },
+      { name: 'PostgreSQL', icon: icon('postgres.png') },
       { name: 'MySQL', icon: icon('mysql.png') },
     ],
   },
