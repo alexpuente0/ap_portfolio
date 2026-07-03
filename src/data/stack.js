@@ -20,7 +20,6 @@ const stack = [
       { name: 'React', icon: icon('react.png') },
       { name: 'Next.js', icon: icon('nextjs.png') },
       { name: 'Redux', icon: icon('redux.png') },
-      { name: 'Rails', icon: icon('rails.png') },
       { name: 'Bootstrap', icon: icon('bootstrap.png') },
       { name: 'Tailwind', icon: icon('tailwind.png') },
       { name: 'JQuery', icon: icon('jquery.png') },
