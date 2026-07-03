@@ -32,7 +32,7 @@ const stack = [
     items: [
       { name: 'Rails', icon: icon('rails.png') },
       { name: 'Firebase', icon: icon('firebase.png') },
-      { name: 'Rest API Integration', icon: icon('api.png') },
+      { name: 'Rest API Integration', icon: icon('restapi.png') },
     ],
   },
   {
